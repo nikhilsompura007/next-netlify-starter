@@ -11,9 +11,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Welcome to StringValidation API Service!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Validate your user input and secure your site.
         </p>
       </main>
 
