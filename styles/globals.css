@@ -33,3 +33,50 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.toolAnc {
+  background: #b1afaf;
+  border-radius: 10px;
+  padding: 4rem;
+  text-decoration: none;
+  color: #0a0707;
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+.tooldiv {
+ display: block;
+ flex-direction: row; 
+ padding: 7rem;
+}
+
+.NavBarDiv{
+  background: #b1afaf;
+  align-items: top;
+  width: 100%;
+  height: 6%;
+  padding-left: 40px;
+  text-decoration: none;
+  color: #0a0707;
+}
+
+.NavBarAnc {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  text-decoration: none;
+  color: #0a0707;
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+.NavBarAnc:hover {
+  background: #0a0707;
+  color: white;
+  text-decoration: none;
+  
+}
+
+.xsstextarea{
+  display: block;
+  padding-top: 8rem;
+  justify-content: stretch;
+  
+}
