@@ -1,9 +1,12 @@
+'use client'
+import React from 'react'
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import {xss} from './xss'
 
 
-export default function Home() {
+export default function index(){
   return (
     <div className="container">
       <Head>
@@ -12,11 +15,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to StringValidation API Service!" />
-        <p className="description">
-          Validate your user input and secure your site.
-        </p>
-        <a href='/tools'> Cross Site Script validation</a>
+        <Header title="Test your URL against XSS and SQLi" />
+      <a href='/tools/xss'> Cross Site Script validation</a>
       </main>
 
       <Footer />
