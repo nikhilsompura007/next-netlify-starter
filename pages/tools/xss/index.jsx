@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-import { NavBar } from 'pages/NavBar'
+import NavBar from '@components/NavBar'
 import React from 'react'
 
 export default function xss() {
